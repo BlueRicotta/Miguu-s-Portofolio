@@ -119,7 +119,6 @@ p
     background-image: url(./assets/image\ copy.png);
     color: var(--base-color);
     position: absolute;
-    width: 100%;
     height: auto;
     align-items: center;
 }
