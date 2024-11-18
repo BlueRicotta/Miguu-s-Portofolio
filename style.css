@@ -119,7 +119,7 @@ p
     background-image: url(./assets/image\ copy.png);
     color: var(--base-color);
     position: absolute;
-    width: 100%;
+    width: 1000%;
     height: auto;
     align-items: center;
 }
@@ -217,6 +217,15 @@ p
     background-color: var(--base-color);
     border-radius: 20px;
 }
+
+.art-box1 img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
 .art-box2
 {
     width: 250px;
@@ -326,6 +335,19 @@ p
     gap: 40px;
 }
 
+.figmalink
+{
+    width: 500px;
+    height: 150px;
+    background-color: var(--base-color);
+    border-radius: 40px;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
 .linkbutton2
 {
     margin-top: 40px;
@@ -400,4 +422,25 @@ p
     justify-content: center;
 } */
 
+@media(max-width: 1080px)
+{
+    .linksbutton
+    {
+        margin-top: 40px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+    }
 
+    .linkbutton2
+{
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+}
